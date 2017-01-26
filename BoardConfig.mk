@@ -22,7 +22,7 @@ DEVICE_PATH := device/lenovo/YTX703F
 TARGET_OTA_ASSERT_DEVICE := YT-X703F
 
 # Kernel
-TARGET_KERNEL_CONFIG := YTX703F_defconfig
+TARGET_KERNEL_CONFIG := lineage_YTX703F_defconfig
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
