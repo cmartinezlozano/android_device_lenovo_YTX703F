@@ -22,3 +22,8 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Inherit from msm8976-common
 $(call inherit-product, device/lenovo/msm8976-common/msm8976.mk)
+
+
+# Ramdisk: extra init scripts
+PRODUCT_PACKAGES += \
+	init.qcom.rc \
