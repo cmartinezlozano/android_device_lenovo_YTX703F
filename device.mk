@@ -26,4 +26,4 @@ $(call inherit-product, device/lenovo/msm8976-common/msm8976.mk)
 
 # Ramdisk: extra init scripts
 PRODUCT_PACKAGES += \
-	init.qcom.rc \
+	init.target.rc \
