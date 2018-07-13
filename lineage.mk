@@ -11,6 +11,11 @@ PRODUCT_MODEL := YT-X703F
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
+USE_MIMI := true
+$(call inherit-product-if-exists, vendor/partner_gms/products/gms.mk)
+$(call inherit-product-if-exists, vendor/mimi/vendor-mimi.mk)
+
+
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=YT-X703F \
